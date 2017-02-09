@@ -210,3 +210,4 @@ C:\Users\Andres.Kurjanov\Documents\Visual Studio 2015\Projects\infokioskpikk\inf
 C:\Users\Andres.Kurjanov\Documents\Visual Studio 2015\Projects\infokioskpikk\infokioskpikk\obj\x86\Debug\Pages\Uudised.xbf
 C:\Users\Andres.Kurjanov\Documents\Visual Studio 2015\Projects\infokioskpikk\infokioskpikk\obj\x86\Debug\Pages\Avaleht.xbf
 C:\Users\Andres.Kurjanov\Documents\Visual Studio 2015\Projects\infokioskpikk\infokioskpikk\obj\x86\Debug\infokioskpikk.csprojResolveAssemblyReference.cache
+C:\Users\Andres.Kurjanov\Documents\Visual Studio 2015\Projects\infokioskpikk\infokioskpikk\bin\x86\Debug\Newtonsoft.Json.dll

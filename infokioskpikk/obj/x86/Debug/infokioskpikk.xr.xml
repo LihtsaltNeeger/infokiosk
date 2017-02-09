@@ -9,6 +9,8 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="Children" />
@@ -21,7 +23,6 @@
       <RootMethod Name="GetColumnSpan" />
       <RootMethod Name="SetColumnSpan" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
@@ -47,6 +48,8 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ListBox">
       <RootProperty Name="Name" />
       <RootProperty Name="SelectionMode" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderThickness" />
       <RootProperty Name="Items" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
@@ -63,12 +66,15 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="Text" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Name" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Name" />
       <RootProperty Name="FontFamily" />
       <RootProperty Name="Content" />
+      <RootProperty Name="Background" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="BorderBrush" />
       <RootProperty Name="Width" />
       <RootEvent Name="Click" />
     </RootType>
@@ -76,6 +82,7 @@
       <RootProperty Name="Fill" />
     </RootType>
     <RootType FullName="infokioskpikk.MainPage" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="infokioskpikk.Pages.Avaleht" />
     <RootType FullName="infokioskpikk.Pages.Kontakt" />
     <RootType FullName="Windows.UI.Xaml.Controls.Pivot">

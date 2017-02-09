@@ -7,7 +7,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="CornflowerBlue"
+          BorderBrush="Black"
+          BorderThickness="2">
         
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
@@ -34,6 +36,8 @@
             <Button x:ConnectionId='9' Name="backButton" 
                     FontFamily="Segoe MDL2 Assets" 
                     Content="&#xE72B;"
+                    BorderBrush="Black"
+                    Background="CornflowerBlue"
                     FontSize="30" 
                                             
                     Width="56">
@@ -43,7 +47,9 @@
                 <Button x:ConnectionId='8' Name="hamburgerButton" 
                     FontFamily="Segoe MDL2 Assets" 
                     Content="&#xE71D;"
+                    Background="CornflowerBlue"
                     FontSize="36"
+                    BorderBrush="Black"
                                                   />
                  
         </RelativePanel>
@@ -58,17 +64,21 @@
            <SplitView.Pane>
                 
                <ListBox x:ConnectionId='3' Name="IconListBox"
-                         SelectionMode="Single"
-                                                                        >
+                        SelectionMode="Single"
+                                                                       
+                        Background="CornflowerBlue"
+                        BorderThickness="2"
+                        >
                     
                    <ListBoxItem x:ConnectionId='4' Name="AvalehtBoxItem">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock FontFamily="Segoe MDL2 Assets"
-                                       FontSize="36"
+                                       FontSize="36" 
                                        Text="&#59407;">
                             </TextBlock>
                             <TextBlock Text="Avaleht"
                                        FontSize="24"
+                                       
                                        Margin="20,0,0,0">
 
                             </TextBlock>
